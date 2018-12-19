@@ -1,6 +1,6 @@
 Import-Module AzureRM
 
-#To select particular sub
+#To select particular sub1
 $subcriptions = get-content 'subcriptions.txt'
 
 Foreach($subcription in $subcriptions)
